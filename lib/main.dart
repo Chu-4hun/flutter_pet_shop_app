@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_shop/search_view.dart';
+import 'package:flutter_shop/view/search_view.dart';
 import 'package:get/get.dart';
 
 void main() {

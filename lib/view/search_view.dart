@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_shop/product_card.dart';
 import 'package:flutter_shop/search_controller.dart';
 import 'package:get/get.dart';
 
@@ -30,17 +29,6 @@ class SearchW extends GetView<SearchController> {
               () => ListView(children: controller.productWidgets),
             ))
             // Expanded(
-            //   child: Obx(
-            //     () => ListView.builder(
-            //       itemCount: controller.products.length,
-            //       itemBuilder: (BuildContext context, int index) {
-            //         return ProductCard(
-            //           product: controller.products[index],
-            //         );
-            //       },
-            //     ),
-            //   ),
-            // ),
           ],
         ),
       ),
